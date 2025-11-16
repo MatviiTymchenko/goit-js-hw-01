@@ -1,5 +1,5 @@
-function getShippingMessage(country, price, delliveryFee) {
-  let total = price + delliveryFee;
+function getShippingMessage(country, price, deliveryFee) {
+  let total = price + deliveryFee;
   let message = `Shipping to ${country} will cost ${total} credits`;
   return message;
 }
